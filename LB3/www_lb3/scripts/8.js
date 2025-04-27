@@ -1,0 +1,1 @@
+document.querySelectorAll('[src="images/img1.png"]')[0].setAttribute('src', 'images/bg-soft.png');

@@ -1,0 +1,1 @@
+document.getElementsByClassName("col1")[0].innerHTML="<h2>News &amp; Events</h2>";

@@ -1,0 +1,1 @@
+document.getElementsByClassName("tittle")[0].innerHTML = "Best<span>Professional Soft</span>";
