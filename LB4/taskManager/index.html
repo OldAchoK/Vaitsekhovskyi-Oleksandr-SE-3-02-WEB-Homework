@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab-4</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="task-manager">
+        <h1>Система керування задачами</h1>
+        <input type="text" id="task-input" placeholder="Введіть опис задачі" />
+        <button id="add-task-btn">Додати задачу</button>
+        <div class="filter">
+            <label for="filter-status">Фільтр за статусом: </label>
+            <select id="filter-status">
+                <option value="all">Всі</option>
+                <option value="in-progress">В роботі</option>
+                <option value="completed">Виконано</option>
+                <option value="deleted">Видалено</option>
+            </select>
+        </div>
+        <ul id="task-list">
+        </ul>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
